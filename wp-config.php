@@ -18,21 +18,20 @@
  * @package WordPress
  */
  require_once( 'wp-rbuilt.php' );
-
-
+define('WP_HOME','http://pgbconstructions.com');
+define('WP_SITEURL','http://pgbconstructions.com');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'pgbconstructions');
 
 /** MySQL database username */
-define('DB_USER', 'razorbee');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'razorbee123');
+define('DB_PASSWORD', 'razorbee@123');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
 
@@ -86,6 +85,5 @@ define('WP_DEBUG', false);
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
-
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
