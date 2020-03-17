@@ -531,6 +531,7 @@ header.main-header {
 }
 header .logo-link img {
     max-width: 100%;
+padding-bottom: 10px;
 }
 /* Top Menu in header */
 header.main-header.top-menu-position-header .header-center {
@@ -632,7 +633,7 @@ header.transparent-header .light-logo {
     display: inline;
 }
 header.main-header.transparent-header {
-  background: linear-gradient(to left,transparent 0%, rgba(255,255,255,1) 110%);
+  background: linear-gradient(to left,transparent 0%, rgba(255,255,255,1) 80%);
     position: absolute;
     left: 0;
     right: 0;
@@ -5806,6 +5807,14 @@ a.pp_expand {
     -webkit-transition: none;
 }
 /******************************My CSS********************************************/
+.serv .mgt-promo-block
+{
+    min-height: 231px;
+}
+.serv2 .mgt-promo-block
+{
+    min-height: 231px;
+}
 .vc_custom_1516493590411 a {
     color: navy !important;
 }

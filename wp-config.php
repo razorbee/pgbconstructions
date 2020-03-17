@@ -25,10 +25,10 @@ define('WP_SITEURL','http://pgbconstructions.com');
 define('DB_NAME', 'pgbconstructions');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'read');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'razorbee@123');
+define('DB_PASSWORD', 'Test135#');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

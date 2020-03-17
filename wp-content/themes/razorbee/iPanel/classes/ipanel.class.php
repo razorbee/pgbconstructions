@@ -1168,7 +1168,7 @@ if (!class_exists('IPANEL')) {
 
                 delete_transient( 'theme_googleFonts' );
 
-                $google_fonts_data = $wp_filesystem->get_contents(get_template_directory() . '/iPanel/classes/googlefonts.json');
+              $google_fonts_data = file_get_contents(realpath(dirname(__FILE__)).'/googlefonts.json'); 
 
                 if($google_fonts_data === false) {
 
